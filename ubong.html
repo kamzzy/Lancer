@@ -13,10 +13,20 @@
     <style>
      body{
                 background-color: white;
-                font-family:Arial, Helvetica, sans-serif;
+                font-family:ubuntu;
             }
             section{
                 display: flex;
+            }
+            .navbar-logo{
+                background-color: black;
+                font-family: Pacifico;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 36px;
+                line-height: 63px;
+                width: 20.45%;
+                color: #FFFFFF;
             }
             .side-panel{
                 background-color: black;
@@ -46,6 +56,9 @@
             .side-panel>ul>li>a{
                 color: white;
             }
+            .navbar-logo{
+                position: relative;
+                left: 21%;
     </style>
 </head>
 <body>
@@ -53,6 +66,7 @@
         <aside>
             <div class="side-panel">
                 <ul>
+                    <li><div class="navbar-logo" href="#"> <h3>Lan<span>c</span>er</h3> </div></li>   
                     <li><i class="fa fa-home"></i><a href="#">Dashboard</a></li>
                     <li><i class="fa fa-users"></i><a href="#">Client</a></li>
                     <li><i class="fa fa-lightbulb-o"></i>Project <i class="fa fa-angle-down dropdown"></i> </li>
@@ -62,6 +76,7 @@
                 </ul>
             </div>
             </aside>
+            
     </section>
 </body>
 </html>
